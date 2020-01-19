@@ -1,0 +1,25 @@
+{
+  "name": "climbing-grades",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/toddmoy/climbing-grade-api.git"
+  },
+  "keywords": [
+    "climbing",
+    "fontainbleu",
+    "vermin",
+    "yosemite"
+  ],
+  "author": "Todd Moy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/toddmoy/climbing-grades/issues"
+  },
+  "homepage": "https://github.com/toddmoy/climbing-grades#readme"
+}
