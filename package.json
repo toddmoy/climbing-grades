@@ -4,8 +4,15 @@
   "description": "",
   "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "format": "prettier --write \"**/*.{js,jsx,json,md,mdx}\"",
+    "test": "jest",
     "publish": "npm publish"
+  },
+  "lint-staged": {
+    "*": [
+      "prettier --write",
+      "git add"
+    ]
   },
   "repository": {
     "type": "git",
@@ -13,7 +20,7 @@
   },
   "keywords": [
     "climbing",
-    "fontainbleu",
+    "fontainebleu",
     "vermin",
     "yosemite",
     "french"
@@ -23,5 +30,12 @@
   "bugs": {
     "url": "https://github.com/toddmoy/climbing-grades/issues"
   },
-  "homepage": "https://github.com/toddmoy/climbing-grades#readme"
+  "homepage": "https://github.com/toddmoy/climbing-grades#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "prettier": "^1.19.1",
+    "husky": "^4.0.10",
+    "jest": "^24.9.0",
+    "lint-staged": "^10.0.0"
+  }
 }
