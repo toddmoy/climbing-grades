@@ -12,7 +12,7 @@ test('Scales have expected ranges.', () => {
   expect(gradeScale.getFrenchScale()).toContain('9c');
 });
 
-test('Valid and invalid scales are detactable.', () => {
+test('Valid and invalid scales are detectable.', () => {
   expect(gradeScale.isValidScale('YDS')).toBeTruthy();
   expect(gradeScale.isValidScale('Yds')).toBeTruthy();
   expect(gradeScale.isValidScale('font')).toBeTruthy();
