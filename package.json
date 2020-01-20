@@ -6,6 +6,8 @@
   "scripts": {
     "format": "prettier --write \"**/*.{js,jsx,json,md,mdx}\"",
     "test": "jest",
+    "develop": "parcel watch src/index.html",
+    "build": "parcel build src/index.html",
     "publish": "npm publish"
   },
   "lint-staged": {
