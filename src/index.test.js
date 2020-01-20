@@ -1,4 +1,4 @@
-import GradeScale from './gradeScale';
+const GradeScale = require('./index');
 
 let gradeScale = new GradeScale();
 
